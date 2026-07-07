@@ -22,7 +22,7 @@ namespace YFM.Core.Entities
 
         public int Defense { get; set; }
 
-        public Attribute Attribute { get; set; }
+        public CardAttribute Attribute { get; set; }
 
         public MonsterType MonsterType { get; set; }
 
