@@ -4,9 +4,9 @@ using YFM.Core.ValueObjects;
 
 namespace YFM.Core.Entities
 {
-    public class Card
+    public class Card : EntityBase
     {
-        public CardId Id { get; set; }
+        public CardId CardId => (CardId)Id;
 
         public int RomId { get; set; }
 
