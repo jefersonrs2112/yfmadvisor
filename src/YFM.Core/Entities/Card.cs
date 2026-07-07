@@ -28,7 +28,7 @@ namespace YFM.Core.Entities
 
         public CardKind Kind { get; set; }
 
-        public IReadOnlyList<GuardianStar> GuardianStars { get; set; }
+        public IReadOnlyList<CardGuardian> GuardianStars { get; set; }
 
         public override string ToString()
         {
